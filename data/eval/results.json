@@ -1,0 +1,886 @@
+{
+  "intent_detection": {
+    "accuracy": 0.88,
+    "report": {
+      "register_complaint": {
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1-score": 0.8333333333333334,
+        "support": 15.0
+      },
+      "track_complaint": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8.0
+      },
+      "close_complaint": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "escalate_to_agent": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "resolve_query": {
+        "precision": 1.0,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.6,
+        "support": 7.0
+      },
+      "greet": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "goodbye": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 3.0
+      },
+      "accuracy": 0.88,
+      "macro avg": {
+        "precision": 0.9591836734693878,
+        "recall": 0.8528911564625851,
+        "f1-score": 0.8809523809523808,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.9142857142857143,
+        "recall": 0.88,
+        "f1-score": 0.8713333333333334,
+        "support": 50.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "labels": [
+      "register_complaint",
+      "track_complaint",
+      "close_complaint",
+      "escalate_to_agent",
+      "resolve_query",
+      "greet",
+      "goodbye"
+    ]
+  },
+  "category_classification": {
+    "accuracy": 0.6,
+    "report": {
+      "Fraud & Unauthorized Charges": {
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1-score": 0.6666666666666666,
+        "support": 5.0
+      },
+      "Billing Concern": {
+        "precision": 0.4444444444444444,
+        "recall": 0.8,
+        "f1-score": 0.5714285714285714,
+        "support": 5.0
+      },
+      "Transaction Dispute": {
+        "precision": 0.3333333333333333,
+        "recall": 0.2,
+        "f1-score": 0.25,
+        "support": 5.0
+      },
+      "Account Access Issue": {
+        "precision": 0.4444444444444444,
+        "recall": 0.8,
+        "f1-score": 0.5714285714285714,
+        "support": 5.0
+      },
+      "Card Services": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 5.0
+      },
+      "Reward & Points Issue": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Loan & Credit Issue": {
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1-score": 0.7692307692307693,
+        "support": 5.0
+      },
+      "Customer Service Complaint": {
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1-score": 0.8333333333333334,
+        "support": 5.0
+      },
+      "General Inquiry": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 5.0
+      },
+      "accuracy": 0.6,
+      "macro avg": {
+        "precision": 0.4790564373897708,
+        "recall": 0.6000000000000001,
+        "f1-score": 0.5180097680097681,
+        "support": 45.0
+      },
+      "weighted avg": {
+        "precision": 0.4790564373897708,
+        "recall": 0.6,
+        "f1-score": 0.5180097680097681,
+        "support": 45.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "labels": [
+      "Fraud & Unauthorized Charges",
+      "Billing Concern",
+      "Transaction Dispute",
+      "Account Access Issue",
+      "Card Services",
+      "Reward & Points Issue",
+      "Loan & Credit Issue",
+      "Customer Service Complaint",
+      "General Inquiry"
+    ]
+  },
+  "category_classification_trained": {
+    "accuracy": 0.8444,
+    "report": {
+      "Fraud & Unauthorized Charges": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1-score": 0.8,
+        "support": 5.0
+      },
+      "Billing Concern": {
+        "precision": 0.5,
+        "recall": 0.8,
+        "f1-score": 0.6153846153846154,
+        "support": 5.0
+      },
+      "Transaction Dispute": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "Account Access Issue": {
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1-score": 0.8333333333333334,
+        "support": 5.0
+      },
+      "Card Services": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Reward & Points Issue": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Loan & Credit Issue": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1-score": 0.75,
+        "support": 5.0
+      },
+      "Customer Service Complaint": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "General Inquiry": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1-score": 0.75,
+        "support": 5.0
+      },
+      "accuracy": 0.8444444444444444,
+      "macro avg": {
+        "precision": 0.8904761904761904,
+        "recall": 0.8444444444444444,
+        "f1-score": 0.8486229819563154,
+        "support": 45.0
+      },
+      "weighted avg": {
+        "precision": 0.8904761904761904,
+        "recall": 0.8444444444444444,
+        "f1-score": 0.8486229819563152,
+        "support": 45.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    "labels": [
+      "Fraud & Unauthorized Charges",
+      "Billing Concern",
+      "Transaction Dispute",
+      "Account Access Issue",
+      "Card Services",
+      "Reward & Points Issue",
+      "Loan & Credit Issue",
+      "Customer Service Complaint",
+      "General Inquiry"
+    ]
+  },
+  "category_classification_distilbert": {
+    "accuracy": 0.8222,
+    "report": {
+      "Fraud & Unauthorized Charges": {
+        "precision": 0.5714285714285714,
+        "recall": 0.8,
+        "f1-score": 0.6666666666666666,
+        "support": 5.0
+      },
+      "Billing Concern": {
+        "precision": 0.4444444444444444,
+        "recall": 0.8,
+        "f1-score": 0.5714285714285714,
+        "support": 5.0
+      },
+      "Transaction Dispute": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "Account Access Issue": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "Card Services": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Reward & Points Issue": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "Loan & Credit Issue": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1-score": 0.75,
+        "support": 5.0
+      },
+      "Customer Service Complaint": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "General Inquiry": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "accuracy": 0.8222222222222222,
+      "macro avg": {
+        "precision": 0.890652557319224,
+        "recall": 0.8222222222222222,
+        "f1-score": 0.838183421516755,
+        "support": 45.0
+      },
+      "weighted avg": {
+        "precision": 0.8906525573192239,
+        "recall": 0.8222222222222222,
+        "f1-score": 0.8381834215167547,
+        "support": 45.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ]
+    ],
+    "labels": [
+      "Fraud & Unauthorized Charges",
+      "Billing Concern",
+      "Transaction Dispute",
+      "Account Access Issue",
+      "Card Services",
+      "Reward & Points Issue",
+      "Loan & Credit Issue",
+      "Customer Service Complaint",
+      "General Inquiry"
+    ]
+  },
+  "sentiment_analysis": {
+    "accuracy": 1.0,
+    "report": {
+      "negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        6
+      ]
+    ],
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ]
+  },
+  "rag_retrieval": {
+    "precision_at_1": 1.0,
+    "precision_at_3": 1.0,
+    "n_test_cases": 10,
+    "hit_at_1": 10,
+    "hit_at_3": 10
+  },
+  "risk_scoring": {
+    "accuracy": 0.625,
+    "n_test_cases": 8,
+    "correct": 5,
+    "cases": [
+      {
+        "category": "Fraud & Unauthorized Charges",
+        "tier": "Platinum",
+        "expected": "Critical",
+        "predicted": "Critical",
+        "score": 0.82
+      },
+      {
+        "category": "Fraud & Unauthorized Charges",
+        "tier": "Gold",
+        "expected": "High",
+        "predicted": "High",
+        "score": 0.685
+      },
+      {
+        "category": "Billing Concern",
+        "tier": "Standard",
+        "expected": "High",
+        "predicted": "Medium",
+        "score": 0.485
+      },
+      {
+        "category": "Billing Concern",
+        "tier": "Standard",
+        "expected": "Medium",
+        "predicted": "Medium",
+        "score": 0.365
+      },
+      {
+        "category": "General Inquiry",
+        "tier": "Standard",
+        "expected": "Low",
+        "predicted": "Low",
+        "score": 0.23
+      },
+      {
+        "category": "Customer Service Complaint",
+        "tier": "Platinum",
+        "expected": "Critical",
+        "predicted": "High",
+        "score": 0.61
+      },
+      {
+        "category": "Transaction Dispute",
+        "tier": "Gold",
+        "expected": "Medium",
+        "predicted": "Medium",
+        "score": 0.495
+      },
+      {
+        "category": "Reward & Points Issue",
+        "tier": "Standard",
+        "expected": "Low",
+        "predicted": "Medium",
+        "score": 0.315
+      }
+    ]
+  },
+  "risk_scoring_ml": {
+    "accuracy": 0.25,
+    "model_name": "GradientBoosting",
+    "n_test_cases": 8,
+    "correct": 2,
+    "cases": [
+      {
+        "category": "Fraud & Unauthorized Charges",
+        "tier": "Platinum",
+        "expected": "Critical",
+        "predicted": "High"
+      },
+      {
+        "category": "Fraud & Unauthorized Charges",
+        "tier": "Gold",
+        "expected": "High",
+        "predicted": "High"
+      },
+      {
+        "category": "Billing Concern",
+        "tier": "Standard",
+        "expected": "High",
+        "predicted": "Medium"
+      },
+      {
+        "category": "Billing Concern",
+        "tier": "Standard",
+        "expected": "Medium",
+        "predicted": "Medium"
+      },
+      {
+        "category": "General Inquiry",
+        "tier": "Standard",
+        "expected": "Low",
+        "predicted": "Medium"
+      },
+      {
+        "category": "Customer Service Complaint",
+        "tier": "Platinum",
+        "expected": "Critical",
+        "predicted": "High"
+      },
+      {
+        "category": "Transaction Dispute",
+        "tier": "Gold",
+        "expected": "Medium",
+        "predicted": "High"
+      },
+      {
+        "category": "Reward & Points Issue",
+        "tier": "Standard",
+        "expected": "Low",
+        "predicted": "Medium"
+      }
+    ],
+    "cv_results": {
+      "RandomForest": {
+        "cv_mean": 0.915,
+        "cv_std": 0.0149,
+        "test_acc": 0.9075
+      },
+      "GradientBoosting": {
+        "cv_mean": 0.92,
+        "cv_std": 0.0057,
+        "test_acc": 0.91
+      }
+    },
+    "test_accuracy_training": 0.91
+  },
+  "elapsed_seconds": 132.8
+}

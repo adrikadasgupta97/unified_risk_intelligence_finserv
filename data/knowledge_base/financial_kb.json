@@ -1,0 +1,182 @@
+[
+  {
+    "id": "KB-001",
+    "category": "Transaction Dispute",
+    "title": "How to dispute an incorrect charge",
+    "content": "If you notice an incorrect or unauthorized charge on your account, you can dispute it within 60 days of the statement date. Steps: (1) Log in to your online account or call the number on the back of your card. (2) Navigate to 'Dispute a Charge' under transactions. (3) Select the specific transaction and provide details about why it is incorrect. (4) Submit the dispute. A provisional credit may be applied within 3-5 business days while the investigation is in progress. Resolution typically takes 30-45 business days."
+  },
+  {
+    "id": "KB-002",
+    "category": "Transaction Dispute",
+    "title": "Duplicate or double charge resolution",
+    "content": "If you have been charged twice for the same transaction: (1) Verify both charges appear on your statement with identical merchant name and amount. (2) Raise a dispute through the app or website and select 'Duplicate Charge'. (3) Provide the transaction dates and amounts for both charges. (4) A provisional credit will typically be applied within 2-3 business days. The merchant will be contacted to confirm and reverse the duplicate charge."
+  },
+  {
+    "id": "KB-003",
+    "category": "Fraud & Unauthorized Charges",
+    "title": "Reporting fraudulent transactions",
+    "content": "If you identify a fraudulent or unauthorized transaction: (1) Call the 24/7 fraud helpline immediately at the number on the back of your card. (2) Your current card will be blocked and a replacement card will be dispatched within 3-5 business days. (3) All disputed fraudulent transactions will be investigated. (4) You will receive provisional credit for confirmed fraudulent charges. (5) File a police report if required and share the complaint number with us. You are not liable for unauthorized transactions reported promptly."
+  },
+  {
+    "id": "KB-004",
+    "category": "Account Access Issue",
+    "title": "Unable to log in or account locked",
+    "content": "If you are unable to log in to your account: (1) Use the 'Forgot Password' link to reset your credentials via your registered email or mobile number. (2) If your account is locked after multiple failed attempts, it will automatically unlock after 30 minutes, or you can contact customer support to unlock it immediately. (3) Ensure you are using the correct email address associated with your account. (4) If you have not received the OTP, check your registered mobile number is active and has network coverage. Contact support if issues persist."
+  },
+  {
+    "id": "KB-005",
+    "category": "Account Access Issue",
+    "title": "Card blocked or suspended",
+    "content": "Your card may be blocked or suspended for security reasons such as suspicious activity, exceeded credit limit, or non-payment. Steps to resolve: (1) Check your registered email or SMS for the reason for the block. (2) If blocked due to suspicious activity, call the fraud helpline to verify your identity and unblock the card. (3) If blocked due to non-payment, clear the outstanding dues and the card will be reactivated within 24 hours. (4) If blocked by mistake, contact customer support with your identity verification documents."
+  },
+  {
+    "id": "KB-006",
+    "category": "Billing Concern",
+    "title": "Understanding your credit card statement",
+    "content": "Your monthly credit card statement includes: total outstanding balance, minimum payment due, payment due date, transaction details, interest charges, and fees. To dispute a billing error: (1) Review your statement carefully within 60 days of receipt. (2) Identify the incorrect charge or billing error. (3) Contact customer support in writing (email or dispute form) with details of the error. (4) We are required to investigate and resolve billing disputes within 90 days."
+  },
+  {
+    "id": "KB-007",
+    "category": "Billing Concern",
+    "title": "Late payment fee waiver",
+    "content": "If you have been charged a late payment fee and believe it was due to an error or exceptional circumstance: (1) Ensure your current outstanding balance is fully cleared. (2) Contact customer support and explain the reason for the late payment. (3) A one-time waiver may be granted for customers with a good payment history. (4) To avoid future late fees, set up auto-pay for at least the minimum due amount. Note: Waivers are at the bank's discretion and not guaranteed."
+  },
+  {
+    "id": "KB-008",
+    "category": "Reward & Points Issue",
+    "title": "Reward points not credited",
+    "content": "Reward points are typically credited within 3-7 business days after a qualifying transaction. If your points have not been credited: (1) Verify the transaction qualifies for rewards (some merchant categories and transactions are excluded). (2) Check if the transaction was made using an eligible card type. (3) Wait for at least 7 business days after the transaction posting date. (4) If points are still missing, raise a rewards dispute via the app or contact support with your transaction reference number. Points adjustments are processed within 10 business days."
+  },
+  {
+    "id": "KB-009",
+    "category": "Reward & Points Issue",
+    "title": "Points redemption issues",
+    "content": "If you are experiencing issues redeeming your reward points: (1) Check your available points balance in the rewards portal. (2) Ensure the redemption request meets the minimum points threshold. (3) Verify the reward option you are redeeming for is currently available. (4) If the portal shows an error, try again after clearing browser cache or using the mobile app. (5) If redemption has failed and points have been deducted, contact support with your redemption reference number for reversal within 5-7 business days."
+  },
+  {
+    "id": "KB-010",
+    "category": "Card Services",
+    "title": "Card not received after application",
+    "content": "If you have not received your new or replacement card: (1) Check the expected delivery timeline communicated at the time of application (typically 7-10 business days). (2) Track your card delivery status via the app or website under 'Card Delivery Status'. (3) If the delivery window has passed, contact support to verify the delivery address and initiate a re-dispatch. (4) If the card was delivered to a wrong address, report it immediately to block the card and request a new one for security reasons."
+  },
+  {
+    "id": "KB-011",
+    "category": "Card Services",
+    "title": "Increasing your credit limit",
+    "content": "To request a credit limit increase: (1) Log in to your account and navigate to 'Credit Limit Enhancement' under card settings. (2) You will be asked to provide updated income details. (3) Eligibility for a credit limit increase depends on your payment history, credit score, income, and account tenure. (4) A decision is typically communicated within 3-5 business days. (5) Alternatively, contact customer support for an assisted application. Note: Hard credit inquiries may be performed and could temporarily impact your credit score."
+  },
+  {
+    "id": "KB-012",
+    "category": "Customer Service Complaint",
+    "title": "Escalating unresolved complaints",
+    "content": "If your complaint has not been resolved satisfactorily: (1) Request escalation to a senior customer service representative or supervisor during your call. (2) Use the online complaint escalation portal and reference your complaint ID. (3) You can write to the Nodal Officer at the contact details provided on the bank website. (4) If still unresolved after 30 days, you may raise a complaint with the Banking Ombudsman under the RBI's Integrated Ombudsman Scheme. Always retain your complaint reference number for all escalations."
+  },
+  {
+    "id": "KB-013",
+    "category": "Loan & Credit Issue",
+    "title": "EMI payment failure or bounce",
+    "content": "If your EMI payment has failed or bounced: (1) Ensure your linked bank account has sufficient balance. (2) A bounce charge may be applied to your account. (3) Pay the EMI manually through net banking, UPI, or at any branch. (4) After clearing the EMI, contact support to waive the bounce charge if it is your first occurrence. (5) To avoid future EMI failures, ensure auto-debit mandates are active and your account has adequate funds before the EMI due date. Repeated EMI failures can negatively impact your credit score."
+  },
+  {
+    "id": "KB-014",
+    "category": "General Inquiry",
+    "title": "How to contact customer support",
+    "content": "You can reach our customer support team through the following channels: (1) 24/7 Helpline: Call the number printed on the back of your card. (2) Live Chat: Available on the website and mobile app between 8 AM and 10 PM. (3) Email: Use the contact form on the website and expect a response within 2 business days. (4) Branch Visit: Visit your nearest branch during business hours for in-person assistance. (5) Chatbot (this system): Available 24/7 for complaint registration, tracking, and automated query resolution."
+  },
+  {
+    "id": "KB-015",
+    "category": "Fraud & Unauthorized Charges",
+    "title": "Protecting your account from fraud",
+    "content": "To protect your account: (1) Never share your card number, CVV, PIN, OTP, or passwords with anyone, including bank staff. (2) Register for transaction alerts via SMS and email. (3) Regularly review your account statements for suspicious activity. (4) Use virtual card numbers for online transactions where possible. (5) Enable two-factor authentication on your account. (6) If you receive a suspicious call or message claiming to be from the bank asking for sensitive information, do not respond and report it to our fraud helpline immediately."
+  },
+  {
+    "id": "KB-016",
+    "category": "Account Access Issue",
+    "title": "Updating your registered mobile number or email",
+    "content": "If your registered mobile number or email has changed and you are unable to receive OTPs: (1) Visit your nearest branch with a valid government-issued photo ID and address proof. (2) Submit a mobile number or email update request form. (3) The update will be processed within 3-5 business days. (4) Alternatively, if you still have access to your old number, log in to the app, go to Profile Settings, and update your contact details after OTP verification on the old number. (5) For security reasons, outgoing transactions may be temporarily restricted during the update process."
+  },
+  {
+    "id": "KB-017",
+    "category": "Account Access Issue",
+    "title": "Adding or removing an authorized user on your card",
+    "content": "To add an authorized user (add-on cardholder) to your account: (1) Log in and navigate to Card Management > Add-on Card. (2) Provide the authorized user's name, date of birth, and relationship. (3) A new card in their name will be dispatched within 7-10 business days. (4) To remove an authorized user, go to Card Management > Manage Add-on Cards and select Remove. The card will be blocked immediately. (5) You as the primary cardholder remain responsible for all charges made by authorized users."
+  },
+  {
+    "id": "KB-018",
+    "category": "Billing Concern",
+    "title": "How interest charges are calculated",
+    "content": "Interest on your credit card is calculated on the daily outstanding balance at your applicable Annual Percentage Rate (APR). (1) Interest is only charged if you do not pay the full statement balance by the due date. (2) The interest-free grace period is typically 20-25 days from the statement date. (3) Cash advances attract interest from the date of withdrawal with no grace period. (4) To avoid interest charges entirely, pay your full statement balance on or before the due date each month. (5) Contact support to request a statement of your current APR and any promotional rates applicable to your account."
+  },
+  {
+    "id": "KB-019",
+    "category": "Billing Concern",
+    "title": "Annual fee charge and waiver request",
+    "content": "Your card's annual fee is charged once per year on your card anniversary date. To request a waiver: (1) Ensure you have met any spending or engagement criteria mentioned in your card's fee waiver policy. (2) Contact customer support before or within 30 days of the fee being charged. (3) Eligibility for waiver is assessed based on annual spend, loyalty, and card tier. (4) If a waiver is not applicable, you may request a downgrade to a no-annual-fee card variant. (5) If you were assured of a no-annual-fee card at the time of issuance, share the original offer documentation with support for review."
+  },
+  {
+    "id": "KB-020",
+    "category": "Card Services",
+    "title": "Setting up or changing your card PIN",
+    "content": "To set or change your credit card PIN: (1) Log in to the mobile app and go to Card Settings > Set PIN. (2) Enter and confirm your new 4-digit PIN. The PIN will be active immediately. (3) Alternatively, visit any ATM, select Change PIN, and follow the on-screen instructions using the temporary PIN sent to your registered mobile. (4) Do not share your PIN with anyone, including bank staff. (5) If you have forgotten your PIN, use the app to regenerate it — you will need OTP verification on your registered mobile number."
+  },
+  {
+    "id": "KB-021",
+    "category": "Card Services",
+    "title": "Enabling or disabling international transactions",
+    "content": "International usage on your card can be controlled for security: (1) Log in to the app and go to Card Controls > International Transactions. (2) Toggle international usage ON before travelling abroad and OFF when you return. (3) You can also set per-transaction limits for international spends. (4) If you are travelling, set up a travel notification in the app under Travel > Add Travel Notification so transactions are not flagged as suspicious. (5) Contact support if your card is declined abroad despite international transactions being enabled — it may require additional verification."
+  },
+  {
+    "id": "KB-022",
+    "category": "Fraud & Unauthorized Charges",
+    "title": "What to do if your card is lost or stolen",
+    "content": "If your card is lost or stolen: (1) Immediately call the 24/7 helpline or use the app to block your card under Card Controls > Block Card. (2) Report the loss to local police and obtain a complaint number. (3) Request a replacement card — it will be dispatched within 3-5 business days. (4) Review your recent transactions and dispute any unauthorized charges immediately. (5) Your liability for unauthorized charges is zero if reported promptly. (6) Once you receive and activate your replacement card, update your card details with any merchants where you have set up auto-pay."
+  },
+  {
+    "id": "KB-023",
+    "category": "Fraud & Unauthorized Charges",
+    "title": "Phishing and social engineering scams",
+    "content": "Fraudsters often impersonate bank officials to steal your credentials. Protect yourself: (1) The bank will NEVER ask for your full card number, CVV, PIN, or OTP over phone, email, or SMS. (2) Do not click links in unsolicited emails or SMS claiming to be from the bank — always access your account directly through the official app or website. (3) Verify the caller's identity by hanging up and calling the official helpline number on the back of your card. (4) If you have shared sensitive information with a suspected fraudster, immediately call the fraud helpline to freeze your account. (5) Report phishing attempts to the bank's official fraud reporting email."
+  },
+  {
+    "id": "KB-024",
+    "category": "Reward & Points Issue",
+    "title": "Reward points expiry policy",
+    "content": "Reward points have an expiry period that varies by card type. To avoid losing your points: (1) Log in and check your points balance and expiry dates in the Rewards section. (2) Points typically expire 2-3 years from the date of earning unless your card has a no-expiry policy. (3) Redeem or transfer your points before they expire — expiry notifications are sent to your registered email 60 and 30 days in advance. (4) Expired points cannot be reinstated. (5) If you did not receive expiry notifications, contact support with your account details to raise a concern — points may be reinstated at the bank's discretion in exceptional cases."
+  },
+  {
+    "id": "KB-025",
+    "category": "Reward & Points Issue",
+    "title": "Cashback credit timeline and disputes",
+    "content": "Cashback earned through offers and promotions is credited to your statement within 30-45 days of the qualifying transaction. If your cashback has not been credited: (1) Verify the transaction met all offer terms — minimum spend, eligible merchant category, and offer registration. (2) Check that the offer was active on the date of the transaction. (3) If all conditions were met and 45 days have passed, raise a cashback dispute via the app or contact support with your transaction reference. (4) Cashback is credited as a statement credit and will appear on your next billing cycle's statement. It cannot be transferred to a bank account."
+  },
+  {
+    "id": "KB-026",
+    "category": "Loan & Credit Issue",
+    "title": "Personal loan prepayment and foreclosure",
+    "content": "To prepay or foreclose your personal loan: (1) Log in and navigate to Loans > Prepayment/Foreclosure to generate a foreclosure statement. (2) A foreclosure charge may apply — this is disclosed in your loan agreement and typically ranges from 2-5% of the outstanding principal. (3) Pay the foreclosure amount via NEFT/RTGS using the details on the statement. (4) A No Objection Certificate (NOC) will be issued within 7-10 business days of the final payment. (5) If you were not informed of prepayment charges at the time of loan disbursal, share your original loan agreement with support for review — charges should match the agreed terms."
+  },
+  {
+    "id": "KB-027",
+    "category": "Loan & Credit Issue",
+    "title": "Credit score impact and how to improve it",
+    "content": "Your credit card usage directly impacts your credit score (CIBIL/Experian). To maintain or improve your score: (1) Always pay at least the minimum due on time — missed payments significantly lower your score. (2) Keep your credit utilization below 30% of your total credit limit. (3) Avoid applying for multiple credit products in a short period as each application triggers a hard inquiry. (4) Regularly review your credit report for errors — raise a dispute with the credit bureau if you find incorrect information. (5) A longer credit history improves your score, so avoid closing old credit cards unless necessary."
+  },
+  {
+    "id": "KB-028",
+    "category": "General Inquiry",
+    "title": "How to go paperless and manage e-statements",
+    "content": "To switch to paperless statements: (1) Log in and go to Account Settings > Statement Preferences > Paperless. (2) Confirm your registered email address where statements will be delivered. (3) E-statements are available within 2 days of your billing cycle closing. (4) You can download and view up to 24 months of past statements from the app or website under Statements & Documents. (5) To switch back to paper statements, update your preference in Account Settings. Note that some banks charge a fee for physical statement delivery."
+  },
+  {
+    "id": "KB-029",
+    "category": "General Inquiry",
+    "title": "Setting up autopay for credit card bills",
+    "content": "Autopay ensures your credit card bill is paid automatically on the due date. To set it up: (1) Log in and go to Payments > AutoPay Setup. (2) Link your bank account via net banking. (3) Choose the autopay amount: minimum due, full outstanding balance, or a fixed amount. (4) Autopay is activated within 2 billing cycles. Until then, continue making manual payments. (5) You will receive a notification 3 days before each autopay debit. (6) To cancel or modify autopay, go to Payments > Manage AutoPay. Ensure your linked bank account always has sufficient funds to avoid EMI bounce charges."
+  },
+  {
+    "id": "KB-030",
+    "category": "Customer Service Complaint",
+    "title": "Filing a complaint with the Banking Ombudsman",
+    "content": "If your complaint remains unresolved for more than 30 days or you are dissatisfied with the bank's final response, you can escalate to the Banking Ombudsman: (1) Gather all complaint reference numbers, correspondence, and evidence of your complaint history with the bank. (2) Visit the RBI's Complaint Management System at cms.rbi.org.in to file your complaint online. (3) The Ombudsman scheme is free of charge and covers complaints related to deficiency in banking services. (4) Ensure you have first exhausted the bank's internal grievance redressal mechanism before approaching the Ombudsman. (5) A decision is typically communicated within 30-90 days of filing."
+  }
+]

@@ -1,6 +1,6 @@
 # Unified Risk Intelligence – FinServ
 
-**An intelligent complaint-management agent for financial services.**
+**An intelligent complaint-management agent for financial services...**
 Customers describe a problem in a chat window; the system anonymises PII, understands intent and sentiment, classifies the complaint, scores its risk, retrieves a resolution from a knowledge base (RAG), decides whether to escalate to a human, and stores everything for an admin analytics dashboard, including churn-risk analytics and model-evaluation views.
 
 Built as an MTech dissertation prototype. Everything runs locally (SQLite + ChromaDB); an LLM (Anthropic Claude) is **optional**.
