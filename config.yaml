@@ -1,0 +1,77 @@
+app:
+  name: "Intelligent Complaint Management Agent"
+  version: "1.0.0"
+  log_level: "INFO"
+
+database:
+  url: "sqlite:///./data/complaints.db"
+
+rag:
+  chroma_db_path: "./chroma_db"
+  collection_name: "knowledge_base"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  top_k_retrieval: 5
+  chunk_size: 500
+  chunk_overlap: 50
+
+nlp:
+  sentiment_model: "ProsusAI/finbert"
+  spacy_model: "en_core_web_sm"
+  intent_confidence_threshold: 0.70
+
+classification:
+  categories:
+    - "Transaction Dispute"
+    - "Account Access Issue"
+    - "Billing Concern"
+    - "Card Services"
+    - "Fraud & Unauthorized Charges"
+    - "Reward & Points Issue"
+    - "Customer Service Complaint"
+    - "Loan & Credit Issue"
+    - "General Inquiry"
+  priority_levels:
+    - "Critical"
+    - "High"
+    - "Medium"
+    - "Low"
+
+risk_scoring:
+  weights:
+    severity: 0.30
+    sentiment: 0.20
+    escalation_frequency: 0.15
+    unresolved_cases: 0.15
+    complaint_frequency: 0.10
+    customer_value: 0.10
+  thresholds:
+    critical: 0.75
+    high: 0.50
+    medium: 0.25
+
+security:
+  jwt_secret_env: "JWT_SECRET_KEY"
+  jwt_algorithm: "HS256"
+  access_token_expire_minutes: 60
+  pii_entities:
+    - "CREDIT_CARD"
+    - "IBAN_CODE"
+    - "PHONE_NUMBER"
+    - "EMAIL_ADDRESS"
+    - "PERSON"
+    - "LOCATION"
+    - "DATE_TIME"
+    - "US_SSN"
+    - "US_BANK_NUMBER"
+
+escalation:
+  risk_score_threshold: 0.75
+  max_auto_resolution_attempts: 2
+  escalation_categories:
+    - "Fraud & Unauthorized Charges"
+
+llm:
+  provider: "anthropic"
+  model: "claude-haiku-4-5-20251001"
+  max_tokens: 512
+  temperature: 0.3
